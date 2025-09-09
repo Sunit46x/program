@@ -379,3 +379,45 @@ body {
   background: #444;
   transform: translateY(-2px);
 }
+
+.zte-button-wrapper {
+    display: flex;
+    gap: 12px;
+    justify-content: center;
+    margin-top: 20px;
+    flex-wrap: wrap; /* allow wrapping when needed */
+  }
+
+  .btn {
+    padding: 12px 20px;
+    border-radius: 8px;
+    font-size: 15px;
+    font-weight: 600;
+    cursor: pointer;
+    text-decoration: none;
+    transition: all 0.3s ease;
+    text-align: center;
+  }
+
+.infinix-platinum {
+  background: #888888;   /* grey background */
+  color: #fff;           /* white text */
+  border: none;          /* no border */
+  padding: 12px 20px;
+  border-radius: 8px;
+  font-size: 15px;
+  font-weight: 600;
+  cursor: pointer;
+  text-align: center;
+}
+
+
+  /* Responsive ONLY for Download button */
+  @media (max-width: 600px) {
+    .infinix-download {
+      flex: 1 1 100%;
+      max-width: 100%;
+    }
+  }
+
+  
